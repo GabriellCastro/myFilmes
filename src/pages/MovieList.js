@@ -27,14 +27,12 @@ class MovieList extends Component {
     if (movies.length < 1) return <Loading />;
     return (
       <div data-testid="movie-list">
-        <header>
-          MyFilmes
-          <div>
-            <Link className="addFilme" to="/movies/new">ADICIONAR FILME</Link>
-            <a className="addFilme" href="https://www.linkedin.com/in/eugabrielcastro/" target="_black">LINKEDIN</a>
-            <a className="addFilme" href="https://github.com/GabriellCastro" target="_black">GITHUB</a>
-          </div>
-        </header>
+        <header><h1>MyFilmes</h1></header>
+        <div>
+          <Link className="addFilme" to="/movies/new">ADICIONAR FILME</Link>
+          <a className="addFilme" href="https://www.linkedin.com/in/eugabrielcastro/" target="_black">LINKEDIN</a>
+          <a className="addFilme" href="https://github.com/GabriellCastro" target="_black">GITHUB</a>
+        </div>
         <div className="container">
           {movies.map((movie) => <MovieCard key={ movie.title } movie={ movie } />)}
         </div>

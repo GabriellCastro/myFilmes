@@ -6,6 +6,10 @@ header {
   border-radius: 100px;
 }
 
+h1 {
+  font-size: 5vh;
+}
+
 input[type=text], select {
   width: 100%;
   padding: 12px 20px;
@@ -33,4 +37,10 @@ button:hover {
 div {
   border-radius: 5px;
   padding: 20px;
+}
+
+@media (max-width: 720px) {
+  h1 {
+    font-size: 3vh;
+  }
 }

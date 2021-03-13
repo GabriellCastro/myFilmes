@@ -10,6 +10,10 @@ header {
   background-color: black;
 }
 
+h1 {
+  font-size: 5vh;
+}
+
 .addFilme {
   background-color: black;
   border: none;
@@ -47,5 +51,8 @@ header {
     display: flex;
     flex-wrap: wrap;
     height: auto;
+  }
+  h1 {
+    font-size: 3vh;
   }
 }

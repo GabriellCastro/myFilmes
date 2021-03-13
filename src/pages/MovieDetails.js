@@ -41,7 +41,7 @@ class MovieDetails extends Component {
     return (
       <div className="containerDetails" data-testid="movie-details">
         <div><Link className="linkButton" to="/">VOLTAR</Link></div>
-        <img alt="Movie Cover" src={ `../${imagePath}` } />
+        <img style={ { width: '100%' } } alt="Movie Cover" src={ `../${imagePath}` } />
         <h1>{ title }</h1>
         <p>{ `Subtitle: ${subtitle}` }</p>
         <p>{ `Storyline: ${storyline}` }</p>

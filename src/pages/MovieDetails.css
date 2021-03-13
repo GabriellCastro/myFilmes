@@ -5,7 +5,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 2vh;
   margin-right: 10px;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -14,4 +14,10 @@
 
 .containerDetails {
   color: white;
+}
+
+@media (max-width: 720px) {
+  .containerDetails {
+    height: auto;
+  }
 }
