@@ -42,5 +42,4 @@ class MovieList extends Component {
     );
   }
 }
-
 export default MovieList;
