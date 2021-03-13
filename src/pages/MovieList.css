@@ -17,7 +17,7 @@ header {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 2vh;
   margin: 10px 20px;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -33,4 +33,19 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
+}
+
+@media (max-width: 720px) {
+  .container {
+    display: block;
+  }
+  .addFilme {
+    display: flex;
+    justify-content: center;
+  }
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+  }
 }
