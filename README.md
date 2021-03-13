@@ -1,6 +1,6 @@
-<h1 align="center">myFilmes</h1>  
+<h1 align="center"><a href="https://myfilmes.vercel.app/">myFilmes</a></h1> 
 <p align="center">A <strong>Trybe</strong> me trouxe um desafio muito TOP, construir um sistema que armazena os filmes que eu gosto, as opções são adicionar um novo filme, editar um filme já existente e também pode deletar um filme.  
-<h3 align="center"><a href="https://myfilmes.vercel.app/">👉myFilmes👈</a></h3>
+<h1 align="center">Web version</h1>
 <h1 align="center">
   <img height="300" src="/src/image/movieFilmesHome.png">
 </h1>
@@ -9,6 +9,12 @@
 <img align="" height="220" src="/src/image/movieFilmesDetails.png">  
 </p>
 
+<h1 align="center">Mobile version</h1>
+<p>
+  <img align="" height="400" src="/src/image/mobileHomeFilmes.png">
+  <img align="" height="400" src="/src/image/mobileDetailsFilmes.png">
+  <img align="" height="400" src="/src/image/mobileAddFilmes.png">
+</p>
 
 ### 🛠 Tecnologias
 
