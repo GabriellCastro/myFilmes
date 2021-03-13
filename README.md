@@ -1,8 +1,8 @@
 <h1 align="center">myFilmes</h1>  
 <p align="center">A <strong>Trybe</strong> me trouxe um desafio muito TOP, construir um sistema que armazena os filmes que eu gosto, as opções são adicionar um novo filme, editar um filme já existente e também pode deletar um filme.  
-<h3 align="center"><a href="https://moveit-ashen-psi.vercel.app/">👉myFilmes👈</a></h3>
+<h3 align="center"><a href="https://myfilmes.vercel.app/">👉myFilmes👈</a></h3>
 <h1 align="center">
-  <img height="250" src="/src/image/movieFilmesHome.png">
+  <img height="300" src="/src/image/movieFilmesHome.png">
 </h1>
 <p float="left">
 <img align="" height="220" src="/src/image/movieFilmesAdd.png"> 
